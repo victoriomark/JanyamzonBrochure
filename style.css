@@ -6,7 +6,6 @@
 }
 body{
     background-color: black;
-    border: solid red;
     display: flex;
     flex-direction: column;
     gap: 1rem;
