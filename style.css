@@ -13,12 +13,7 @@ body{
   
 }
 
-  div  {
-    border: solid green;
-  }
-  div  {
-    border: solid blue;
-  }
+
 img{
     object-fit: cover;
 }
