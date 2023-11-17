@@ -30,10 +30,9 @@ img{
     text-align: center;
     position: relative;
     cursor: pointer;
-    box-shadow: 0 10px 15px -3px rgba(33,150,243,.4),0 4px 6px -4px rgba(33,150,243,.4);
     border-radius: 10px;
     background-color: #6B6ECC;
-    background: linear-gradient(45deg, #04051dea 0%, #2b566e 100%);
+    background: linear-gradient(45deg, #04051dea 0%, #2b566e 50%);
   }
   
   .content {
@@ -84,4 +83,53 @@ footer ul li a{
 footer{
   padding: 1rem;
 }
+  
+
+
+
+   .avatar{
+    padding: 5px;
+    background-color: #FFFF;
+    border-radius: 50%;
+  }
+  .settings{
+   position: absolute;
+   top: 5rem;
+    right: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    width: 200px;
+    display: none;
+    border-radius: 10px;
+  }
+   .activeAvatar{
+     display: flex;
+   }
+
+  .settings ul{
+   list-style: none;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 2px;
+   color: #6B6ECC;
+   padding: 10px;
+   }
+   .settings ul li{
+    text-align: center;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px;
+   }
+   .settings ul li:hover{
+    background-color: #6B6ECC;
+    color: #fff;
+    
+   }  
+
+
   

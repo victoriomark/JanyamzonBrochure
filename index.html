@@ -16,19 +16,15 @@
     <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
-  <body class="bg-dark">
-    <header class="bg-dark container-fluid">
+  <body>
+    <header class="bg-dark container-fluid  d-flex justify-content-around align-items-center ">
+      
       <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
           <div
             class="container d-flex justify-content-between align-items-center"
           >
-            <img
-              src="./Assets/image/Black White Minimalist Circle Monogram Logo.png"
-              width="50"
-              class="rounded-circle"
-              alt=""
-            />
+            
             <button
               class="navbar-toggler bg-light"
               type="button"
@@ -41,7 +37,7 @@
               <span class="navbar-toggler-icon"></span>
             </button>
           </div>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="collapse CSSC navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto d-flex justify-content-center gap-2">
               <li class="nav-item text-align-center">
                 <a
@@ -83,9 +79,19 @@
           </div>
         </div>
       </nav>
+      <img
+              src="./Assets/image/Black White Minimalist Circle Monogram Logo.png"
+              width="50"
+              class="rounded-circle"
+              alt=""
+            />
+      <div class="avatar">
+        <img class="rounded-circle "  width="30" src="./Assets/image//avatar.avif" alt="">
+      </div>
+      
     </header>
     <section
-      class="container-fluid d-lg-flex gap-5  justify-content-center d-md-grid d-ms-grid"
+      class="container-fluid d-lg-grid  gap-5  justify-content-around  d-md-grid d-ms-grid"
     >
       <div
         class="container d-lg-flex justify-content-center align-items-center d-md-grid d-ms-grid"
@@ -104,10 +110,10 @@
         />
       </div>
       <div
-        class="cssCard w-50 container-md container-ms d-flex flex-column justify-content-center align-items-center"
+        class="cssCard w-50  container-md container-ms d-flex flex-column justify-content-center align-items-center"
       >
         <h1 class="card-title text-light">About</h1>
-        <p class="text-light">
+        <p class="text-light card-text">
           While brochures are developed with the purpose of being informational,
           they are often designed with a commercial intent in mind, i.e.,
           selling the goods or services. Brochures, on the other hand, are
@@ -118,9 +124,9 @@
     </section>
 
     <div
-      class="container bg-body-secondary  text-secondary  d-flex flex-column justify-content-center align-items-center"
+      class="container  mt-5   text-light   d-flex flex-column justify-content-center align-items-center"
     >
-      <p class="card-text">
+      <p class="">
         homepage/index sa text: While brochures are developed with the purpose
         of being informational, they are often designed with a commercial intent
         in mind, i.e., selling the goods or services. Brochures, on the other
@@ -136,25 +142,31 @@
     </div>
 
     <footer
-      class="container-fluid  bg-danger d-flex flex-column justify-content-center align-items-center"
-    >
-      <ul class="d-flex gap-5">
-        <li>
-          <a href="#"><i class="fa-solid fa-envelope"></i></a>
-        </li>
-        <li>
-          <a href="#"><i class="fa-brands fa-facebook"></i></a>
-        </li>
-        <li>
-          <a href="#"><i class="fa-brands fa-instagram"></i></a>
-       
-        </li>
-      </ul>
-      <p class="text-light ">
-        Create by: Jan Yamzon
-      </p>
-    </footer>
-
+    class=" container-fluid d-flex flex-column justify-content-center align-items-center"
+  >
+    <ul class="d-flex gap-5">
+      <li>
+        <a href="#"><i class="fa-solid fa-envelope"></i></a>
+      </li>
+      <li>
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+      </li>
+      <li>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+     
+      </li>
+    </ul>
+    <p class="text-light ">
+      Create by: Jan Yamzon
+    </p>
+  </footer>
+     <div class="settings">
+       <ul>
+          <li>Account</li>
+          <li>Subscription</li>
+          <li>Setting</li>
+       </ul>
+     </div>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
       integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
@@ -165,5 +177,6 @@
       integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
       crossorigin="anonymous"
     ></script>
+    <script src="app.js"></script>
   </body>
 </html>
